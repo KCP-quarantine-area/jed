@@ -8,8 +8,7 @@ url="http://www.jedsoft.org/jed"
 license=('GPL')
 depends=('gpm' 'slang' 'libxft')
 makedepends=('libxext' 'libxt')
-source=("ftp://space.mit.edu/pub/davis/${pkgname}/v0.99/${pkgname}-${_pkgver}.tar.bz2"
-"$pkgname.install")
+source=("ftp://space.mit.edu/pub/davis/${pkgname}/v0.99/${pkgname}-${_pkgver}.tar.bz2")
 md5sums=('c9b2f58a3defc6f61faa1ce7d6d629ea'
          'dd95161e54793bc082fa881d67886e21')
 install="$pkgname.install"
